@@ -1,0 +1,852 @@
+2025-10-21 10:05:27,686 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-10-21 10:05:28,019 - Knowledge - INFO - Starting Knowledge Graph processing with 50 threads
+2025-10-21 10:05:28,189 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-10-21 10:05:29,759 - Knowledge - INFO - load persisted knowledge: begin
+2025-10-21 10:05:29,953 - Knowledge - INFO - Loaded 0 files from persisted knowledge
+2025-10-21 10:05:30,122 - Knowledge - INFO - load persisted knowledge: end
+2025-10-21 10:05:30,293 - Knowledge - WARNING - No persisted knowledge found. Files will be queued during start()
+2025-10-21 10:05:30,508 - Knowledge - INFO - Redis support added with prefix knowledge:b7295a3:
+2025-10-21 10:05:31,046 - Knowledge - INFO - load persisted docinfo: begin
+2025-10-21 10:05:31,248 - Knowledge - INFO - load persisted docinfo: end
+2025-10-21 10:05:31,451 - Knowledge - INFO - Populating ingest queue with source files...
+2025-10-21 10:05:31,794 - Knowledge - INFO - Added 216 files from /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas to ingest queue
+2025-10-21 10:05:31,991 - Knowledge - INFO - Worker kw1 created using shared MongoDB connection pool
+2025-10-21 10:05:32,158 - Knowledge - INFO - knowledge worker kw1 start
+2025-10-21 10:05:32,158 - Knowledge - INFO - Worker kw2 created using shared MongoDB connection pool
+2025-10-21 10:05:32,357 - Knowledge - INFO - [kw1] Queue=216, InProgress=0, PendingWorkers=0/1, Completed=0/216 (0.0%)
+2025-10-21 10:05:32,468 - Knowledge - INFO - knowledge worker kw2 start
+2025-10-21 10:05:32,468 - Knowledge - INFO - Worker kw3 created using shared MongoDB connection pool
+2025-10-21 10:05:32,590 - Knowledge - INFO - Dynamic batch size: 100 for queue=216
+2025-10-21 10:05:32,702 - Knowledge - INFO - [kw2] Queue=216, InProgress=0, PendingWorkers=0/2, Completed=0/216 (0.0%)
+2025-10-21 10:05:32,792 - Knowledge - INFO - knowledge worker kw3 start
+2025-10-21 10:05:32,792 - Knowledge - INFO - Worker kw4 created using shared MongoDB connection pool
+2025-10-21 10:05:32,892 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/scripts/install.sh
+2025-10-21 10:05:32,966 - Knowledge - INFO - Dynamic batch size: 50 for queue=216
+2025-10-21 10:05:33,045 - Knowledge - INFO - [kw3] Queue=116, InProgress=0, PendingWorkers=1/3, Completed=0/216 (0.0%)
+2025-10-21 10:05:33,140 - Knowledge - INFO - knowledge worker kw4 start
+2025-10-21 10:05:33,141 - Knowledge - INFO - Worker kw5 created using shared MongoDB connection pool
+2025-10-21 10:05:33,267 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/scripts/cleanup.sh
+2025-10-21 10:05:33,372 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users-routing.module.ts
+2025-10-21 10:05:33,449 - Knowledge - INFO - Dynamic batch size: 30 for queue=116
+2025-10-21 10:05:33,554 - Knowledge - INFO - [kw4] Queue=66, InProgress=0, PendingWorkers=2/4, Completed=0/216 (0.0%)
+2025-10-21 10:05:33,651 - Knowledge - INFO - knowledge worker kw5 start
+2025-10-21 10:05:33,651 - Knowledge - INFO - Worker kw6 created using shared MongoDB connection pool
+2025-10-21 10:05:33,745 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/pre-requisites-versions-check.sh
+2025-10-21 10:05:33,853 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users-routing.module.ts (ext=.ts, size=758)
+2025-10-21 10:05:33,945 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/angular.json
+2025-10-21 10:05:34,030 - Knowledge - INFO - Dynamic batch size: 20 for queue=66
+2025-10-21 10:05:34,142 - Knowledge - INFO - [kw5] Queue=36, InProgress=0, PendingWorkers=3/5, Completed=0/216 (0.0%)
+2025-10-21 10:05:34,248 - Knowledge - INFO - knowledge worker kw6 start
+2025-10-21 10:05:34,250 - Knowledge - INFO - Worker kw7 created using shared MongoDB connection pool
+2025-10-21 10:05:34,359 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/README.md
+2025-10-21 10:05:34,450 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.html
+2025-10-21 10:05:34,572 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/angular.json (ext=.json, size=3215)
+2025-10-21 10:05:34,693 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users.service.ts
+2025-10-21 10:05:34,786 - Knowledge - INFO - Dynamic batch size: 20 for queue=36
+2025-10-21 10:05:34,881 - Knowledge - INFO - [kw6] Queue=16, InProgress=0, PendingWorkers=4/6, Completed=0/216 (0.0%)
+2025-10-21 10:05:34,965 - Knowledge - INFO - knowledge worker kw7 start
+2025-10-21 10:05:34,965 - Knowledge - INFO - Worker kw8 created using shared MongoDB connection pool
+2025-10-21 10:05:35,038 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/README.md (ext=.md, size=348)
+2025-10-21 10:05:35,136 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.ts
+2025-10-21 10:05:35,235 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.spec.json
+2025-10-21 10:05:35,352 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users.service.ts (ext=.ts, size=1581)
+2025-10-21 10:05:35,453 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app.component.ts
+2025-10-21 10:05:35,531 - Knowledge - INFO - Dynamic batch size: 16 for queue=16
+2025-10-21 10:05:35,742 - Knowledge - INFO - knowledge worker kw8 start
+2025-10-21 10:05:35,743 - Knowledge - INFO - Worker kw9 created using shared MongoDB connection pool
+2025-10-21 10:05:35,874 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/increase-disk-size.sh
+2025-10-21 10:05:35,984 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.ts (ext=.ts, size=1453)
+2025-10-21 10:05:36,098 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.spec.json (ext=.json, size=333)
+2025-10-21 10:05:36,198 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users.module.ts
+2025-10-21 10:05:36,340 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app.component.ts (ext=.ts, size=796)
+2025-10-21 10:05:36,622 - Knowledge - INFO - knowledge worker kw9 start
+2025-10-21 10:05:36,623 - Knowledge - INFO - Worker kw10 created using shared MongoDB connection pool
+2025-10-21 10:05:36,717 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/pre-requisites.sh
+2025-10-21 10:05:36,827 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.scss
+2025-10-21 10:05:36,908 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/cypress/README.md
+2025-10-21 10:05:36,994 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users.module.ts (ext=.ts, size=1687)
+2025-10-21 10:05:37,103 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app-routing.module.ts
+2025-10-21 10:05:37,268 - Knowledge - INFO - knowledge worker kw10 start
+2025-10-21 10:05:37,268 - Knowledge - INFO - Worker kw11 created using shared MongoDB connection pool
+2025-10-21 10:05:37,345 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/pre-requisites.sh (ext=.sh, size=1815)
+2025-10-21 10:05:37,419 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.scss (ext=.scss, size=322)
+2025-10-21 10:05:37,526 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/cypress/README.md (ext=.md, size=906)
+2025-10-21 10:05:37,630 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.ts
+2025-10-21 10:05:37,749 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app-routing.module.ts (ext=.ts, size=1111)
+2025-10-21 10:05:37,923 - Knowledge - INFO - knowledge worker kw11 start
+2025-10-21 10:05:37,924 - Knowledge - INFO - Worker kw12 created using shared MongoDB connection pool
+2025-10-21 10:05:38,005 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/DOCUMENTATION.md
+2025-10-21 10:05:38,088 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/models/user.ts
+2025-10-21 10:05:38,176 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.json
+2025-10-21 10:05:38,274 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.ts (ext=.ts, size=1159)
+2025-10-21 10:05:38,389 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/custom-theme.scss
+2025-10-21 10:05:38,648 - Knowledge - INFO - knowledge worker kw12 start
+2025-10-21 10:05:38,648 - Knowledge - INFO - Worker kw13 created using shared MongoDB connection pool
+2025-10-21 10:05:38,730 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/DOCUMENTATION.md (ext=.md, size=41813)
+2025-10-21 10:05:38,813 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/models/user.ts (ext=.ts, size=295)
+2025-10-21 10:05:38,938 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.json (ext=.json, size=914)
+2025-10-21 10:05:39,066 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.html
+2025-10-21 10:05:39,142 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/custom-theme.scss (ext=.scss, size=1548)
+2025-10-21 10:05:39,359 - Knowledge - INFO - knowledge worker kw13 start
+2025-10-21 10:05:39,360 - Knowledge - INFO - Worker kw14 created using shared MongoDB connection pool
+2025-10-21 10:05:39,472 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/THIRD-PARTY-LICENSES.txt
+2025-10-21 10:05:39,598 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.html
+2025-10-21 10:05:39,688 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/README.md
+2025-10-21 10:05:39,782 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.html (ext=.html, size=1280)
+2025-10-21 10:05:39,860 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/test.ts
+2025-10-21 10:05:40,030 - Knowledge - INFO - knowledge worker kw14 start
+2025-10-21 10:05:40,031 - Knowledge - INFO - Worker kw15 created using shared MongoDB connection pool
+2025-10-21 10:05:40,105 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/THIRD-PARTY-LICENSES.txt (ext=.txt, size=18755)
+2025-10-21 10:05:40,179 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.ts
+2025-10-21 10:05:40,274 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/README.md (ext=.md, size=1065)
+2025-10-21 10:05:40,367 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.scss
+2025-10-21 10:05:40,476 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/test.ts (ext=.ts, size=749)
+2025-10-21 10:05:40,677 - Knowledge - INFO - knowledge worker kw15 start
+2025-10-21 10:05:40,677 - Knowledge - INFO - Worker kw16 created using shared MongoDB connection pool
+2025-10-21 10:05:40,778 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/CODE_OF_CONDUCT.md
+2025-10-21 10:05:40,870 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.ts (ext=.ts, size=773)
+2025-10-21 10:05:40,975 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/environments/environment.ts
+2025-10-21 10:05:41,094 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.scss (ext=.scss, size=1400)
+2025-10-21 10:05:41,182 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/polyfills.ts
+2025-10-21 10:05:41,344 - Knowledge - INFO - knowledge worker kw16 start
+2025-10-21 10:05:41,345 - Knowledge - INFO - Worker kw17 created using shared MongoDB connection pool
+2025-10-21 10:05:41,434 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/CODE_OF_CONDUCT.md (ext=.md, size=308)
+2025-10-21 10:05:41,525 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.scss
+2025-10-21 10:05:41,623 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/environments/environment.ts (ext=.ts, size=177)
+2025-10-21 10:05:41,728 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.html
+2025-10-21 10:05:41,819 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/index.html
+2025-10-21 10:05:41,975 - Knowledge - INFO - knowledge worker kw17 start
+2025-10-21 10:05:41,975 - Knowledge - INFO - Worker kw18 created using shared MongoDB connection pool
+2025-10-21 10:05:42,052 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/README.md
+2025-10-21 10:05:42,134 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.scss (ext=.scss, size=130)
+2025-10-21 10:05:42,221 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/environments/environment.prod.ts
+2025-10-21 10:05:42,321 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.ts
+2025-10-21 10:05:42,406 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/index.html (ext=.html, size=878)
+2025-10-21 10:05:42,567 - Knowledge - INFO - knowledge worker kw18 start
+2025-10-21 10:05:42,567 - Knowledge - INFO - Worker kw19 created using shared MongoDB connection pool
+2025-10-21 10:05:42,669 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/README.md (ext=.md, size=2488)
+2025-10-21 10:05:42,758 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users.service.ts
+2025-10-21 10:05:42,837 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/environments/environment.prod.ts (ext=.ts, size=177)
+2025-10-21 10:05:42,924 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.ts (ext=.ts, size=1587)
+2025-10-21 10:05:43,027 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.app.json
+2025-10-21 10:05:43,216 - Knowledge - INFO - knowledge worker kw19 start
+2025-10-21 10:05:43,217 - Knowledge - INFO - Worker kw20 created using shared MongoDB connection pool
+2025-10-21 10:05:43,336 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/tests/validate-deployment.sh
+2025-10-21 10:05:43,439 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users.service.ts (ext=.ts, size=1697)
+2025-10-21 10:05:43,534 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles/_variables.scss
+2025-10-21 10:05:43,626 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.scss
+2025-10-21 10:05:43,720 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.app.json (ext=.json, size=287)
+2025-10-21 10:05:43,940 - Knowledge - INFO - knowledge worker kw20 start
+2025-10-21 10:05:43,940 - Knowledge - INFO - Worker kw21 created using shared MongoDB connection pool
+2025-10-21 10:05:44,052 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/tests/validate-deployment.sh (ext=.sh, size=246)
+2025-10-21 10:05:44,135 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users.module.ts
+2025-10-21 10:05:44,258 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles/_variables.scss (ext=.scss, size=453)
+2025-10-21 10:05:44,335 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.scss (ext=.scss, size=380)
+2025-10-21 10:05:44,445 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/package.json
+2025-10-21 10:05:44,633 - Knowledge - INFO - knowledge worker kw21 start
+2025-10-21 10:05:44,633 - Knowledge - INFO - Worker kw22 created using shared MongoDB connection pool
+2025-10-21 10:05:44,746 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/CONTRIBUTING.md
+2025-10-21 10:05:44,837 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users.module.ts (ext=.ts, size=1688)
+2025-10-21 10:05:44,923 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles/reset.scss
+2025-10-21 10:05:45,004 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/models/tenant.ts
+2025-10-21 10:05:45,077 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/package.json (ext=.json, size=1372)
+2025-10-21 10:05:45,272 - Knowledge - INFO - knowledge worker kw22 start
+2025-10-21 10:05:45,274 - Knowledge - INFO - Worker kw23 created using shared MongoDB connection pool
+2025-10-21 10:05:45,399 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/CONTRIBUTING.md (ext=.md, size=3159)
+2025-10-21 10:05:45,511 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.ts
+2025-10-21 10:05:45,593 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles/reset.scss (ext=.scss, size=147)
+2025-10-21 10:05:45,674 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/models/tenant.ts (ext=.ts, size=148)
+2025-10-21 10:05:45,768 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress.config.ts
+2025-10-21 10:05:45,927 - Knowledge - INFO - knowledge worker kw23 start
+2025-10-21 10:05:45,927 - Knowledge - INFO - Worker kw24 created using shared MongoDB connection pool
+2025-10-21 10:05:46,016 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/deprovision-tenant.sh
+2025-10-21 10:05:46,098 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.ts (ext=.ts, size=1159)
+2025-10-21 10:05:46,198 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/aws-exports.ts
+2025-10-21 10:05:46,311 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.html
+2025-10-21 10:05:46,436 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress.config.ts (ext=.ts, size=170)
+2025-10-21 10:05:46,617 - Knowledge - INFO - knowledge worker kw24 start
+2025-10-21 10:05:46,617 - Knowledge - INFO - Worker kw25 created using shared MongoDB connection pool
+2025-10-21 10:05:46,705 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/provision-tenant.sh
+2025-10-21 10:05:46,808 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/models/config-params.ts
+2025-10-21 10:05:46,892 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/aws-exports.ts (ext=.ts, size=226)
+2025-10-21 10:05:47,033 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.ts
+2025-10-21 10:05:47,120 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/angular.json
+2025-10-21 10:05:47,346 - Knowledge - INFO - knowledge worker kw25 start
+2025-10-21 10:05:47,346 - Knowledge - INFO - Worker kw26 created using shared MongoDB connection pool
+2025-10-21 10:05:47,444 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/update-tenant.sh
+2025-10-21 10:05:47,571 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/models/config-params.ts (ext=.ts, size=1077)
+2025-10-21 10:05:47,656 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/main.ts
+2025-10-21 10:05:47,771 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.ts (ext=.ts, size=814)
+2025-10-21 10:05:47,880 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/angular.json (ext=.json, size=3193)
+2025-10-21 10:05:48,093 - Knowledge - INFO - knowledge worker kw26 start
+2025-10-21 10:05:48,093 - Knowledge - INFO - Worker kw27 created using shared MongoDB connection pool
+2025-10-21 10:05:48,216 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/update-tenant.sh (ext=.sh, size=1565)
+2025-10-21 10:05:48,335 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.html
+2025-10-21 10:05:48,418 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/main.ts (ext=.ts, size=684)
+2025-10-21 10:05:48,508 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.scss
+2025-10-21 10:05:48,590 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.spec.json
+2025-10-21 10:05:48,831 - Knowledge - INFO - knowledge worker kw27 start
+2025-10-21 10:05:48,831 - Knowledge - INFO - Worker kw28 created using shared MongoDB connection pool
+2025-10-21 10:05:48,943 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/utils.py
+2025-10-21 10:05:49,023 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.html (ext=.html, size=1280)
+2025-10-21 10:05:49,102 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles.scss
+2025-10-21 10:05:49,205 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.scss (ext=.scss, size=132)
+2025-10-21 10:05:49,298 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.spec.json (ext=.json, size=333)
+2025-10-21 10:05:49,505 - Knowledge - INFO - knowledge worker kw28 start
+2025-10-21 10:05:49,505 - Knowledge - INFO - Worker kw29 created using shared MongoDB connection pool
+2025-10-21 10:05:49,616 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/metrics_manager.py
+2025-10-21 10:05:49,707 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.scss
+2025-10-21 10:05:49,791 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles.scss (ext=.scss, size=938)
+2025-10-21 10:05:49,901 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants.module.ts
+2025-10-21 10:05:50,011 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress/e2e/admin-user.cy.ts
+2025-10-21 10:05:50,209 - Knowledge - INFO - knowledge worker kw29 start
+2025-10-21 10:05:50,210 - Knowledge - INFO - Worker kw30 created using shared MongoDB connection pool
+2025-10-21 10:05:50,274 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/metrics_manager.py (ext=.py, size=794)
+2025-10-21 10:05:50,390 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.scss (ext=.scss, size=1400)
+2025-10-21 10:05:50,462 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/models/interfaces.ts
+2025-10-21 10:05:50,549 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants.module.ts (ext=.ts, size=1678)
+2025-10-21 10:05:50,652 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress/README.md
+2025-10-21 10:05:50,870 - Knowledge - INFO - knowledge worker kw30 start
+2025-10-21 10:05:50,981 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/requirements.txt
+2025-10-21 10:05:51,088 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth-configuration.service.ts
+2025-10-21 10:05:51,198 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/models/interfaces.ts (ext=.ts, size=208)
+2025-10-21 10:05:51,283 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants.service.ts
+2025-10-21 10:05:51,368 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress/README.md (ext=.md, size=906)
+2025-10-21 10:05:51,552 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/requirements.txt (ext=.txt, size=118)
+2025-10-21 10:05:51,653 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.ts
+2025-10-21 10:05:51,743 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/models/index.ts
+2025-10-21 10:05:51,848 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants.service.ts (ext=.ts, size=962)
+2025-10-21 10:05:51,932 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.json
+2025-10-21 10:05:52,031 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/abstract_classes/idp_authorizer_abstract_class.py
+2025-10-21 10:05:52,115 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/404.component.html
+2025-10-21 10:05:52,202 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/models/index.ts (ext=.ts, size=30)
+2025-10-21 10:05:52,318 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants-routing.module.ts
+2025-10-21 10:05:52,398 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.json (ext=.json, size=871)
+2025-10-21 10:05:52,472 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/abstract_classes/idp_authorizer_abstract_class.py (ext=.py, size=129)
+2025-10-21 10:05:52,551 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/404.component.html (ext=.html, size=877)
+2025-10-21 10:05:52,671 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/interceptors/auth.interceptor.ts
+2025-10-21 10:05:52,765 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants-routing.module.ts (ext=.ts, size=770)
+2025-10-21 10:05:52,843 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/README.md
+2025-10-21 10:05:52,958 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/abstract_classes/idp_user_management_abstract_class.py
+2025-10-21 10:05:53,079 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.html
+2025-10-21 10:05:53,171 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/interceptors/auth.interceptor.ts (ext=.ts, size=1096)
+2025-10-21 10:05:53,248 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/_nav.ts
+2025-10-21 10:05:53,331 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/README.md (ext=.md, size=1059)
+2025-10-21 10:05:53,409 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/abstract_classes/idp_user_management_abstract_class.py (ext=.py, size=582)
+2025-10-21 10:05:53,491 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.html (ext=.html, size=1397)
+2025-10-21 10:05:53,585 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/interceptors/index.ts
+2025-10-21 10:05:53,691 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/_nav.ts (ext=.ts, size=417)
+2025-10-21 10:05:53,763 - Knowledge - INFO - Worker kw5 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/karma.conf.js
+2025-10-21 10:05:53,863 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/idp_object_factory.py
+2025-10-21 10:05:53,953 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/404.component.ts
+2025-10-21 10:05:54,045 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/interceptors/index.ts (ext=.ts, size=398)
+2025-10-21 10:05:54,129 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.spec.ts
+2025-10-21 10:05:54,210 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/karma.conf.js (ext=.js, size=1426)
+2025-10-21 10:05:54,324 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/idp_object_factory.py (ext=.py, size=544)
+2025-10-21 10:05:54,423 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/404.component.ts (ext=.ts, size=258)
+2025-10-21 10:05:54,551 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app.module.ts
+2025-10-21 10:05:54,657 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.spec.ts (ext=.ts, size=1241)
+2025-10-21 10:05:54,864 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/cognito_user_management_service.py
+2025-10-21 10:05:54,949 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/500.component.html
+2025-10-21 10:05:55,061 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.html
+2025-10-21 10:05:55,145 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.html
+2025-10-21 10:05:55,224 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/cognito_authorizer.py
+2025-10-21 10:05:55,321 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/500.component.html (ext=.html, size=899)
+2025-10-21 10:05:55,413 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.html (ext=.html, size=520)
+2025-10-21 10:05:55,491 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.css
+2025-10-21 10:05:55,602 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/user_management_util.py
+2025-10-21 10:05:55,687 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.scss
+2025-10-21 10:05:55,777 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard-routing.module.ts
+2025-10-21 10:05:55,865 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.css (ext=.css, size=617)
+2025-10-21 10:05:55,967 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/user_management_util.py (ext=.py, size=1923)
+2025-10-21 10:05:56,076 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.scss (ext=.scss, size=1129)
+2025-10-21 10:05:56,163 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard-routing.module.ts (ext=.ts, size=528)
+2025-10-21 10:05:56,284 - Knowledge - INFO - Worker kw4 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.ts
+2025-10-21 10:05:56,379 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/auth_manager.py
+2025-10-21 10:05:56,454 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/500.component.ts
+2025-10-21 10:05:56,572 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.ts
+2025-10-21 10:05:56,767 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/logger.py
+2025-10-21 10:05:56,891 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/500.component.ts (ext=.ts, size=258)
+2025-10-21 10:05:56,973 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.module.ts
+2025-10-21 10:05:57,084 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/logger.py (ext=.py, size=710)
+2025-10-21 10:05:57,174 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders.module.ts
+2025-10-21 10:05:57,281 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.module.ts (ext=.ts, size=905)
+2025-10-21 10:05:57,365 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/requirements.txt
+2025-10-21 10:05:57,458 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders.module.ts (ext=.ts, size=1665)
+2025-10-21 10:05:57,567 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.scss
+2025-10-21 10:05:57,710 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/requirements.txt (ext=.txt, size=25)
+2025-10-21 10:05:57,820 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.html
+2025-10-21 10:05:57,945 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.scss (ext=.scss, size=383)
+2025-10-21 10:05:58,036 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_service_dal.py
+2025-10-21 10:05:58,130 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.ts
+2025-10-21 10:05:58,222 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users-routing.module.ts
+2025-10-21 10:05:58,312 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_service.py
+2025-10-21 10:05:58,395 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.scss
+2025-10-21 10:05:58,500 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users-routing.module.ts (ext=.ts, size=758)
+2025-10-21 10:05:58,584 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/requirements.txt
+2025-10-21 10:05:58,674 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.scss (ext=.scss, size=438)
+2025-10-21 10:05:58,789 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.html
+2025-10-21 10:05:58,879 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/requirements.txt (ext=.txt, size=94)
+2025-10-21 10:05:58,931 - Knowledge - INFO - [LLM_CALL] Completed: polyfills.ts:chunk1, Duration: 4150ms, PromptTokens: 1734, CompletionTokens: 112, Cost: $0.00000
+2025-10-21 10:05:58,986 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/models/order.interface.ts
+2025-10-21 10:05:59,090 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.ts
+2025-10-21 10:05:59,203 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_models.py
+2025-10-21 10:05:59,301 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/polyfills.ts
+2025-10-21 10:05:59,378 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/models/order.interface.ts (ext=.ts, size=303)
+2025-10-21 10:05:59,454 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.ts (ext=.ts, size=1449)
+2025-10-21 10:05:59,543 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_models.py (ext=.py, size=573)
+2025-10-21 10:05:59,835 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/models/orderproduct.interface.ts
+2025-10-21 10:05:59,943 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.scss
+2025-10-21 10:06:00,018 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/lambda-prepare-deploy.py
+2025-10-21 10:06:00,139 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/models/orderproduct.interface.ts (ext=.ts, size=203)
+2025-10-21 10:06:00,234 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.scss (ext=.scss, size=322)
+2025-10-21 10:06:00,352 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/iterator.py
+2025-10-21 10:06:00,468 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.html
+2025-10-21 10:06:00,554 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/models/user.ts
+2025-10-21 10:06:00,645 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/iterator.py (ext=.py, size=565)
+2025-10-21 10:06:00,745 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.html (ext=.html, size=1744)
+2025-10-21 10:06:00,858 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/models/user.ts (ext=.ts, size=257)
+2025-10-21 10:06:00,945 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/tenant_authorizer.py
+2025-10-21 10:06:01,049 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.ts
+2025-10-21 10:06:01,159 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.html
+2025-10-21 10:06:01,259 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/requirements.txt
+2025-10-21 10:06:01,340 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.ts (ext=.ts, size=847)
+2025-10-21 10:06:01,467 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.ts
+2025-10-21 10:06:01,544 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/requirements.txt (ext=.txt, size=73)
+2025-10-21 10:06:01,579 - Knowledge - INFO - [LLM_CALL] Completed: nav.component.html:chunk1, Duration: 3106ms, PromptTokens: 3662, CompletionTokens: 171, Cost: $0.00000
+2025-10-21 10:06:01,627 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.scss
+2025-10-21 10:06:01,719 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.ts (ext=.ts, size=791)
+2025-10-21 10:06:01,805 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_models.py
+2025-10-21 10:06:01,897 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.html
+2025-10-21 10:06:02,010 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.scss (ext=.scss, size=96)
+2025-10-21 10:06:02,104 - Knowledge - INFO - Worker kw3 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.scss
+2025-10-21 10:06:02,226 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_models.py (ext=.py, size=552)
+2025-10-21 10:06:02,334 - Knowledge - INFO - [LLM_CALL] Completed: create.component.html:chunk1, Duration: 5680ms, PromptTokens: 5546, CompletionTokens: 230, Cost: $0.00000
+2025-10-21 10:06:02,413 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders-routing.module.ts
+2025-10-21 10:06:02,564 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.scss (ext=.scss, size=130)
+2025-10-21 10:06:02,635 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_service.py
+2025-10-21 10:06:02,720 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.html
+2025-10-21 10:06:02,788 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders-routing.module.ts (ext=.ts, size=943)
+2025-10-21 10:06:02,960 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_service_dal.py
+2025-10-21 10:06:03,094 - Knowledge - INFO - [LLM_CALL] Completed: list.component.html:chunk1, Duration: 5517ms, PromptTokens: 7318, CompletionTokens: 289, Cost: $0.00000
+2025-10-21 10:06:03,171 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.scss
+2025-10-21 10:06:03,285 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/UserManagementService/user_management.py
+2025-10-21 10:06:03,384 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.html
+2025-10-21 10:06:03,496 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.scss (ext=.scss, size=1957)
+2025-10-21 10:06:03,583 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/UserManagementService/requirements.txt
+2025-10-21 10:06:04,010 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.ts
+2025-10-21 10:06:04,135 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/UserManagementService/requirements.txt (ext=.txt, size=60)
+2025-10-21 10:06:04,249 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.ts (ext=.ts, size=1729)
+2025-10-21 10:06:04,315 - Knowledge - INFO - [LLM_CALL] Completed: admin-user.cy.ts:chunk1, Duration: 8531ms, PromptTokens: 9402, CompletionTokens: 718, Cost: $0.00000
+2025-10-21 10:06:04,331 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/test/tenant-template-cdk.test.ts
+2025-10-21 10:06:04,433 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.html
+2025-10-21 10:06:04,507 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress/e2e/admin-user.cy.ts
+2025-10-21 10:06:04,666 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/test/tenant-template-cdk.test.ts (ext=.ts, size=565)
+2025-10-21 10:06:04,797 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders.service.ts
+2025-10-21 10:06:04,974 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/package.json
+2025-10-21 10:06:05,003 - Knowledge - INFO - Processing batch of 16 files
+2025-10-21 10:06:05,100 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders.service.ts (ext=.ts, size=830)
+2025-10-21 10:06:05,176 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/package.json (ext=.json, size=623)
+2025-10-21 10:06:05,293 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app.component.ts
+2025-10-21 10:06:05,378 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/cognito.guard.ts
+2025-10-21 10:06:05,476 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/cdk.json
+2025-10-21 10:06:05,591 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app-routing.module.ts
+2025-10-21 10:06:05,702 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/cognito.guard.ts (ext=.ts, size=1646)
+2025-10-21 10:06:05,816 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/cdk.json (ext=.json, size=2268)
+2025-10-21 10:06:05,897 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/custom-theme.scss
+2025-10-21 10:06:05,982 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/_nav.ts
+2025-10-21 10:06:06,095 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/tsconfig.json
+2025-10-21 10:06:06,214 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/test.ts
+2025-10-21 10:06:06,321 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/_nav.ts (ext=.ts, size=493)
+2025-10-21 10:06:06,416 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/tsconfig.json (ext=.json, size=776)
+2025-10-21 10:06:06,495 - Knowledge - INFO - [LLM_CALL] Completed: nav.component.ts:chunk1, Duration: 7156ms, PromptTokens: 11186, CompletionTokens: 1104, Cost: $0.00000
+2025-10-21 10:06:06,518 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/polyfills.ts
+2025-10-21 10:06:06,614 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.scss
+2025-10-21 10:06:06,702 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/jest.config.js
+2025-10-21 10:06:06,814 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.ts
+2025-10-21 10:06:06,916 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/index.html
+2025-10-21 10:06:07,014 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.scss (ext=.scss, size=787)
+2025-10-21 10:06:07,099 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/jest.config.js (ext=.js, size=157)
+2025-10-21 10:06:07,284 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.app.json
+2025-10-21 10:06:07,356 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.html
+2025-10-21 10:06:07,413 - Knowledge - INFO - Processing batch of 20 files
+2025-10-21 10:06:07,446 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/api-key-ssm-parameter-names.ts
+2025-10-21 10:06:07,614 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/package.json
+2025-10-21 10:06:07,651 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.ts
+2025-10-21 10:06:07,748 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users.service.ts
+2025-10-21 10:06:07,862 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/api-key-ssm-parameter-names.ts (ext=.ts, size=224)
+2025-10-21 10:06:07,956 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress.config.ts
+2025-10-21 10:06:07,972 - Knowledge - INFO - [LLM_CALL] Completed: list.component.html:chunk1, Duration: 2118ms, PromptTokens: 13086, CompletionTokens: 1163, Cost: $0.00000
+2025-10-21 10:06:08,063 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.component.ts
+2025-10-21 10:06:08,178 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users.module.ts
+2025-10-21 10:06:08,278 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/identity-details.ts
+2025-10-21 10:06:08,387 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/angular.json
+2025-10-21 10:06:08,474 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.html
+2025-10-21 10:06:08,561 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.component.ts (ext=.ts, size=596)
+2025-10-21 10:06:08,667 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.ts
+2025-10-21 10:06:08,749 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/identity-details.ts (ext=.ts, size=95)
+2025-10-21 10:06:08,830 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.spec.json
+2025-10-21 10:06:09,037 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app-routing.module.ts
+2025-10-21 10:06:09,099 - Knowledge - INFO - [LLM_CALL] Completed: create.component.html:chunk1, Duration: 4145ms, PromptTokens: 14870, CompletionTokens: 1222, Cost: $0.00000
+2025-10-21 10:06:09,186 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.html
+2025-10-21 10:06:09,268 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/custom-api-key.ts
+2025-10-21 10:06:09,343 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress/e2e/admin-user.cy.ts
+2025-10-21 10:06:09,444 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app-routing.module.ts (ext=.ts, size=1521)
+2025-10-21 10:06:09,545 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.html
+2025-10-21 10:06:09,635 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/auth/auth.component.scss
+2025-10-21 10:06:09,734 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/custom-api-key.ts (ext=.ts, size=328)
+2025-10-21 10:06:09,854 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/cypress/README.md
+2025-10-21 10:06:09,956 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/custom-theme.scss
+2025-10-21 10:06:10,195 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.html
+2025-10-21 10:06:10,291 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/control-plane-stack.ts
+2025-10-21 10:06:10,528 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/custom-theme.scss (ext=.scss, size=1548)
+2025-10-21 10:06:10,634 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/tsconfig.json
+2025-10-21 10:06:10,655 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.ts
+2025-10-21 10:06:10,755 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/control-plane-stack.ts (ext=.ts, size=1931)
+2025-10-21 10:06:10,844 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/test.ts
+2025-10-21 10:06:10,975 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/README.md
+2025-10-21 10:06:11,065 - Knowledge - INFO - [LLM_CALL] Completed: app.module.ts:chunk1, Duration: 8190ms, PromptTokens: 16522, CompletionTokens: 1481, Cost: $0.00000
+2025-10-21 10:06:11,073 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/create/create.component.scss
+2025-10-21 10:06:11,145 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-pipeline/deployemntstatemachine.asl.json
+2025-10-21 10:06:11,232 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/test.ts (ext=.ts, size=749)
+2025-10-21 10:06:11,344 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/karma.conf.js
+2025-10-21 10:06:11,440 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app.module.ts
+2025-10-21 10:06:11,570 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/models/tenant.ts
+2025-10-21 10:06:11,671 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-pipeline/deployemntstatemachine.asl.json (ext=.json, size=8337)
+2025-10-21 10:06:11,767 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/polyfills.ts
+2025-10-21 10:06:12,139 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.html
+2025-10-21 10:06:12,213 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-pipeline/serverless-saas-pipeline.ts
+2025-10-21 10:06:12,290 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/index.html
+2025-10-21 10:06:12,380 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.ts
+2025-10-21 10:06:12,452 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/microservice.ts
+2025-10-21 10:06:12,592 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/index.html (ext=.html, size=880)
+2025-10-21 10:06:12,711 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/list/list.component.scss
+2025-10-21 10:06:12,820 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/api-gateway.ts
+2025-10-21 10:06:12,906 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.app.json
+2025-10-21 10:06:12,919 - Knowledge - INFO - [LLM_CALL] Completed: dashboard.component.ts:chunk1, Duration: 8854ms, PromptTokens: 19198, CompletionTokens: 1790, Cost: $0.00000
+2025-10-21 10:06:13,018 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants.module.ts
+2025-10-21 10:06:13,092 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/services.ts
+2025-10-21 10:06:13,229 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.app.json (ext=.json, size=287)
+2025-10-21 10:06:13,336 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.ts
+2025-10-21 10:06:13,469 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants.service.ts
+2025-10-21 10:06:13,492 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 291, Duration: 0ms
+2025-10-21 10:06:13,541 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/lambda-function.ts
+2025-10-21 10:06:13,621 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/package.json
+2025-10-21 10:06:13,819 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/tenants/tenants-routing.module.ts
+2025-10-21 10:06:13,931 - Knowledge - INFO - [WEBSOCKET] Sent: Type=unknown, Size: ?, Duration: 439ms
+2025-10-21 10:06:14,039 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/usage-plans.ts
+2025-10-21 10:06:14,124 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/package.json (ext=.json, size=1459)
+2025-10-21 10:06:14,216 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/_nav.ts
+2025-10-21 10:06:14,325 - Knowledge - INFO - Progress: 16.7% | Files: 42/216 | Rate: 0.92 files/sec | Queue: 0
+2025-10-21 10:06:14,421 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/tenant-template-stack.ts
+2025-10-21 10:06:14,443 - Knowledge - INFO - Processing batch of 30 files
+2025-10-21 10:06:14,500 - Knowledge - INFO - Worker kw2 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/cypress.config.ts
+2025-10-21 10:06:14,612 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.spec.ts
+2025-10-21 10:06:14,795 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/identity-provider.ts
+2025-10-21 10:06:14,876 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/angular.json
+2025-10-21 10:06:14,955 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/cypress.config.ts (ext=.ts, size=170)
+2025-10-21 10:06:15,069 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.html
+2025-10-21 10:06:15,153 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/helper-functions.ts
+2025-10-21 10:06:15,240 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.spec.json
+2025-10-21 10:06:15,429 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.css
+2025-10-21 10:06:15,521 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/helper-functions.ts (ext=.ts, size=163)
+2025-10-21 10:06:15,598 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/cypress/README.md
+2025-10-21 10:06:15,678 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/nav/nav.component.ts
+2025-10-21 10:06:15,755 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/bootstrap-template/tenant-api-key.ts
+2025-10-21 10:06:15,834 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.json
+2025-10-21 10:06:16,026 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/bootstrap-template/tenant-api-key.ts (ext=.ts, size=797)
+2025-10-21 10:06:16,164 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/README.md
+2025-10-21 10:06:16,254 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/bootstrap-template/bootstrap-template-stack.ts
+2025-10-21 10:06:16,428 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/environments/environment.ts
+2025-10-21 10:06:16,466 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/cdk-aspect/destroy-policy-setter.ts
+2025-10-21 10:06:16,689 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/environments/environment.prod.ts
+2025-10-21 10:06:16,730 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/cdk-aspect/destroy-policy-setter.ts (ext=.ts, size=309)
+2025-10-21 10:06:16,931 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles/_variables.scss
+2025-10-21 10:06:16,991 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/test/client-template.test.ts
+2025-10-21 10:06:17,106 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles/reset.scss
+2025-10-21 10:06:17,188 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/test/client-template.test.ts (ext=.ts, size=610)
+2025-10-21 10:06:17,374 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/aws-exports.ts
+2025-10-21 10:06:17,392 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/package.json
+2025-10-21 10:06:17,623 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/main.ts
+2025-10-21 10:06:17,696 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/package.json (ext=.json, size=554)
+2025-10-21 10:06:17,854 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/styles.scss
+2025-10-21 10:06:17,942 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/cdk.json
+2025-10-21 10:06:18,054 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/models/interfaces.ts
+2025-10-21 10:06:18,198 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/cdk.json (ext=.json, size=3301)
+2025-10-21 10:06:18,296 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/models/index.ts
+2025-10-21 10:06:18,394 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/tsconfig.json
+2025-10-21 10:06:18,508 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/interceptors/auth.interceptor.ts
+2025-10-21 10:06:18,589 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/tsconfig.json (ext=.json, size=663)
+2025-10-21 10:06:18,722 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/interceptors/index.ts
+2025-10-21 10:06:18,843 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/jest.config.js
+2025-10-21 10:06:18,926 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/app.module.ts
+2025-10-21 10:06:19,021 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/jest.config.js (ext=.js, size=157)
+2025-10-21 10:06:19,133 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.html
+2025-10-21 10:06:19,262 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/README.md
+2025-10-21 10:06:19,388 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard-routing.module.ts
+2025-10-21 10:06:19,503 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/README.md (ext=.md, size=536)
+2025-10-21 10:06:19,642 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.ts
+2025-10-21 10:06:19,715 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/lib/client-template-stack.ts
+2025-10-21 10:06:19,858 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.module.ts
+2025-10-21 10:06:19,969 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/lib/client-template-stack.ts (ext=.ts, size=1420)
+2025-10-21 10:06:20,076 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/dashboard/dashboard.component.scss
+2025-10-21 10:06:20,153 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/lib/client-interface.ts
+2025-10-21 10:06:20,262 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/users-routing.module.ts
+2025-10-21 10:06:20,341 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/environments/environment.ts
+2025-10-21 10:06:20,431 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.html
+2025-10-21 10:06:20,543 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/environments/environment.ts (ext=.ts, size=136)
+2025-10-21 10:06:20,692 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.ts
+2025-10-21 10:06:20,804 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/environments/environment.prod.ts
+2025-10-21 10:06:20,931 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/create/create.component.scss
+2025-10-21 10:06:21,042 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/environments/environment.prod.ts (ext=.ts, size=136)
+2025-10-21 10:06:21,136 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/models/user.ts
+2025-10-21 10:06:21,258 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles/_variables.scss
+2025-10-21 10:06:21,349 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.html
+2025-10-21 10:06:21,420 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles/_variables.scss (ext=.scss, size=453)
+2025-10-21 10:06:21,541 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.ts
+2025-10-21 10:06:21,655 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles/reset.scss
+2025-10-21 10:06:21,739 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Admin/src/app/views/users/list/list.component.scss
+2025-10-21 10:06:21,830 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles/reset.scss (ext=.scss, size=147)
+2025-10-21 10:06:22,018 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/main.ts
+2025-10-21 10:06:22,244 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/main.ts (ext=.ts, size=377)
+2025-10-21 10:06:22,474 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles.scss
+2025-10-21 10:06:22,685 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles.scss (ext=.scss, size=1180)
+2025-10-21 10:06:22,875 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/models/interfaces.ts
+2025-10-21 10:06:23,093 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/models/interfaces.ts (ext=.ts, size=208)
+2025-10-21 10:06:23,240 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/models/index.ts
+2025-10-21 10:06:23,454 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/models/index.ts (ext=.ts, size=30)
+2025-10-21 10:06:23,644 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.component.scss
+2025-10-21 10:06:23,821 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.component.scss (ext=.scss, size=10)
+2025-10-21 10:06:24,017 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/interceptors/auth.interceptor.ts
+2025-10-21 10:06:24,202 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/interceptors/auth.interceptor.ts (ext=.ts, size=1098)
+2025-10-21 10:06:24,358 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/interceptors/index.ts
+2025-10-21 10:06:24,529 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/interceptors/index.ts (ext=.ts, size=398)
+2025-10-21 10:06:24,763 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.module.ts
+2025-10-21 10:06:24,958 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.html
+2025-10-21 10:06:25,145 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.html (ext=.html, size=1267)
+2025-10-21 10:06:25,203 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 290, Duration: 0ms
+2025-10-21 10:06:25,317 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard-routing.module.ts
+2025-10-21 10:06:25,523 - Knowledge - INFO - [WEBSOCKET] Sent: Type=unknown, Size: ?, Duration: 320ms
+2025-10-21 10:06:25,622 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard-routing.module.ts (ext=.ts, size=528)
+2025-10-21 10:06:25,766 - Knowledge - INFO - Progress: 30.6% | Files: 66/216 | Rate: 1.15 files/sec | Queue: 0
+2025-10-21 10:06:25,767 - Knowledge - INFO - [LLM_CALL] Completed: detail.component.html:chunk1, Duration: 5280ms, PromptTokens: 22116, CompletionTokens: 1849, Cost: $0.00000
+2025-10-21 10:06:25,848 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.ts
+2025-10-21 10:06:26,080 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.html
+2025-10-21 10:06:26,181 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.module.ts
+2025-10-21 10:06:26,353 - Knowledge - INFO - [LLM_CALL] Completed: create.component.html:chunk1, Duration: 7410ms, PromptTokens: 23908, CompletionTokens: 1908, Cost: $0.00000
+2025-10-21 10:06:26,414 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.module.ts (ext=.ts, size=905)
+2025-10-21 10:06:26,529 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.html
+2025-10-21 10:06:26,604 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.scss
+2025-10-21 10:06:26,944 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.html
+2025-10-21 10:06:26,978 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.scss (ext=.scss, size=271)
+2025-10-21 10:06:27,311 - Knowledge - INFO - [LLM_CALL] Completed: nav.component.html:chunk1, Duration: 5906ms, PromptTokens: 28046, CompletionTokens: 2026, Cost: $0.00000
+2025-10-21 10:06:27,399 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.html
+2025-10-21 10:06:27,545 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.html
+2025-10-21 10:06:27,636 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.html (ext=.html, size=1949)
+2025-10-21 10:06:27,814 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.ts
+2025-10-21 10:06:28,778 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.ts (ext=.ts, size=1261)
+2025-10-21 10:06:28,787 - Knowledge - INFO - [LLM_CALL] Completed: polyfills.ts:chunk1, Duration: 5750ms, PromptTokens: 29780, CompletionTokens: 2158, Cost: $0.00000
+2025-10-21 10:06:28,965 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.scss
+2025-10-21 10:06:29,048 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/polyfills.ts
+2025-10-21 10:06:29,168 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.scss (ext=.scss, size=358)
+2025-10-21 10:06:29,360 - Knowledge - INFO - [LLM_CALL] Completed: list.component.html:chunk1, Duration: 13138ms, PromptTokens: 31664, CompletionTokens: 2271, Cost: $0.00000
+2025-10-21 10:06:29,384 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/models/product.interface.ts
+2025-10-21 10:06:29,521 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.html
+2025-10-21 10:06:29,618 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/models/product.interface.ts (ext=.ts, size=286)
+2025-10-21 10:06:29,992 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.html
+2025-10-21 10:06:30,371 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.html (ext=.html, size=1667)
+2025-10-21 10:06:30,753 - Knowledge - INFO - [LLM_CALL] Completed: auth-configuration.service.ts:chunk1, Duration: 13624ms, PromptTokens: 34112, CompletionTokens: 2662, Cost: $0.00000
+2025-10-21 10:06:30,763 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.ts
+2025-10-21 10:06:30,933 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth-configuration.service.ts
+2025-10-21 10:06:31,017 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.ts (ext=.ts, size=1119)
+2025-10-21 10:06:31,404 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.scss
+2025-10-21 10:06:31,527 - Knowledge - INFO - [LLM_CALL] Completed: create.component.ts:chunk1, Duration: 11785ms, PromptTokens: 36196, CompletionTokens: 3051, Cost: $0.00000
+2025-10-21 10:06:31,608 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.scss (ext=.scss, size=98)
+2025-10-21 10:06:31,694 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.ts
+2025-10-21 10:06:31,828 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/products-routing.module.ts
+2025-10-21 10:06:32,238 - Knowledge - INFO - [LLM_CALL] Completed: nav.component.ts:chunk1, Duration: 10003ms, PromptTokens: 38260, CompletionTokens: 3422, Cost: $0.00000
+2025-10-21 10:06:32,292 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/products-routing.module.ts (ext=.ts, size=942)
+2025-10-21 10:06:32,407 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.ts
+2025-10-21 10:06:32,493 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.ts
+2025-10-21 10:06:32,847 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.html
+2025-10-21 10:06:33,039 - Knowledge - INFO - [LLM_CALL] Completed: unauthorized.component.ts:chunk1, Duration: 15001ms, PromptTokens: 40482, CompletionTokens: 3859, Cost: $0.00000
+2025-10-21 10:06:33,043 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.scss
+2025-10-21 10:06:33,232 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.ts
+2025-10-21 10:06:33,327 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.scss (ext=.scss, size=412)
+2025-10-21 10:06:33,551 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/product.service.ts
+2025-10-21 10:06:33,672 - Knowledge - INFO - Processing batch of 50 files
+2025-10-21 10:06:33,725 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/product.service.ts (ext=.ts, size=1119)
+2025-10-21 10:06:33,830 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users-routing.module.ts
+2025-10-21 10:06:33,929 - Knowledge - INFO - Worker kw1 processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/products.module.ts
+2025-10-21 10:06:34,043 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.html
+2025-10-21 10:06:34,125 - Knowledge - INFO - Fast-tracked /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/products.module.ts (ext=.ts, size=1602)
+2025-10-21 10:06:34,240 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.ts
+2025-10-21 10:06:34,436 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/create/create.component.scss
+2025-10-21 10:06:34,652 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/models/user.ts
+2025-10-21 10:06:34,828 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.html
+2025-10-21 10:06:35,017 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.ts
+2025-10-21 10:06:35,195 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/list/list.component.scss
+2025-10-21 10:06:35,383 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users.service.ts
+2025-10-21 10:06:35,555 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/users/users.module.ts
+2025-10-21 10:06:35,761 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.ts
+2025-10-21 10:06:35,958 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/models/config-params.ts
+2025-10-21 10:06:36,155 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.html
+2025-10-21 10:06:36,327 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth.component.scss
+2025-10-21 10:06:36,478 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/auth/auth-configuration.service.ts
+2025-10-21 10:06:36,654 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.ts
+2025-10-21 10:06:36,852 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/404.component.html
+2025-10-21 10:06:37,025 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.html
+2025-10-21 10:06:37,213 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/404.component.ts
+2025-10-21 10:06:37,412 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/500.component.html
+2025-10-21 10:06:37,599 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/unauthorized.component.scss
+2025-10-21 10:06:37,814 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/error/500.component.ts
+2025-10-21 10:06:38,032 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders.module.ts
+2025-10-21 10:06:38,205 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.html
+2025-10-21 10:06:38,434 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.ts
+2025-10-21 10:06:38,589 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/create/create.component.scss
+2025-10-21 10:06:38,796 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/models/order.interface.ts
+2025-10-21 10:06:38,971 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/models/orderproduct.interface.ts
+2025-10-21 10:06:39,163 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.html
+2025-10-21 10:06:39,334 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.ts
+2025-10-21 10:06:39,529 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/list/list.component.scss
+2025-10-21 10:06:39,685 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders-routing.module.ts
+2025-10-21 10:06:39,903 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.scss
+2025-10-21 10:06:40,095 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.ts
+2025-10-21 10:06:40,290 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/detail/detail.component.html
+2025-10-21 10:06:40,464 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/orders/orders.service.ts
+2025-10-21 10:06:40,643 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/cognito.guard.ts
+2025-10-21 10:06:40,849 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/_nav.ts
+2025-10-21 10:06:41,042 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.scss
+2025-10-21 10:06:41,226 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.html
+2025-10-21 10:06:41,390 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/nav/nav.component.ts
+2025-10-21 10:06:41,572 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.component.ts
+2025-10-21 10:06:41,764 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app-routing.module.ts
+2025-10-21 10:06:41,931 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/custom-theme.scss
+2025-10-21 10:06:42,136 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/test.ts
+2025-10-21 10:06:42,317 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/polyfills.ts
+2025-10-21 10:06:42,497 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/index.html
+2025-10-21 10:06:42,661 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/tsconfig.app.json
+2025-10-21 10:06:42,823 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/package.json
+2025-10-21 10:06:42,967 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/cypress.config.ts
+2025-10-21 10:06:47,305 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 292, Duration: 0ms
+2025-10-21 10:06:47,470 - Knowledge - INFO - [WEBSOCKET] Sent: Type=unknown, Size: ?, Duration: 166ms
+2025-10-21 10:06:47,664 - Knowledge - INFO - Progress: 53.7% | Files: 116/216 | Rate: 1.46 files/sec | Queue: 0
+2025-10-21 10:07:07,421 - Knowledge - INFO - [LLM_CALL] Completed: edit.component.html:chunk1, Duration: 6959ms, PromptTokens: 42202, CompletionTokens: 3918, Cost: $0.00000
+2025-10-21 10:07:07,608 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.html
+2025-10-21 10:07:13,385 - Knowledge - INFO - [LLM_CALL] Completed: increase-disk-size.sh:chunk1, Duration: 36606ms, PromptTokens: 44262, CompletionTokens: 4179, Cost: $0.00000
+2025-10-21 10:07:13,584 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/increase-disk-size.sh
+2025-10-21 10:07:19,523 - Knowledge - INFO - [LLM_CALL] Completed: microservice.ts:chunk1, Duration: 29452ms, PromptTokens: 47614, CompletionTokens: 4583, Cost: $0.00000
+2025-10-21 10:07:19,761 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/microservice.ts
+2025-10-21 10:07:20,046 - Knowledge - INFO - [LLM_CALL] Completed: provision-tenant.sh:chunk1, Duration: 41556ms, PromptTokens: 50638, CompletionTokens: 4915, Cost: $0.00000
+2025-10-21 10:07:20,211 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/provision-tenant.sh
+2025-10-21 10:07:20,579 - Knowledge - INFO - [LLM_CALL] Completed: dashboard.component.ts:chunk1, Duration: 21816ms, PromptTokens: 52918, CompletionTokens: 5304, Cost: $0.00000
+2025-10-21 10:07:20,745 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.ts
+2025-10-21 10:07:21,277 - Knowledge - INFO - [LLM_CALL] Completed: api-gateway.ts:chunk1, Duration: 30289ms, PromptTokens: 55476, CompletionTokens: 5745, Cost: $0.00000
+2025-10-21 10:07:21,475 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/api-gateway.ts
+2025-10-21 10:07:22,025 - Knowledge - INFO - [LLM_CALL] Completed: deprovision-tenant.sh:chunk1, Duration: 44360ms, PromptTokens: 59150, CompletionTokens: 6220, Cost: $0.00000
+2025-10-21 10:07:22,214 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/deprovision-tenant.sh
+2025-10-21 10:07:22,571 - Knowledge - INFO - [LLM_CALL] Completed: pre-requisites-versions-check.sh:chunk1, Duration: 46582ms, PromptTokens: 62578, CompletionTokens: 6581, Cost: $0.00000
+2025-10-21 10:07:22,760 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/pre-requisites-versions-check.sh
+2025-10-21 10:07:23,456 - Knowledge - INFO - [LLM_CALL] Completed: auth_manager.py:chunk1, Duration: 41552ms, PromptTokens: 66312, CompletionTokens: 7087, Cost: $0.00000
+2025-10-21 10:07:23,665 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/auth_manager.py
+2025-10-21 10:07:24,367 - Knowledge - INFO - [LLM_CALL] Completed: lambda-prepare-deploy.py:chunk1, Duration: 39855ms, PromptTokens: 69554, CompletionTokens: 7632, Cost: $0.00000
+2025-10-21 10:07:24,570 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/lambda-prepare-deploy.py
+2025-10-21 10:07:25,719 - Knowledge - INFO - [LLM_CALL] Completed: cognito_authorizer.py:chunk1, Duration: 44650ms, PromptTokens: 71552, CompletionTokens: 8093, Cost: $0.00000
+2025-10-21 10:07:25,895 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/cognito_authorizer.py
+2025-10-21 10:07:26,361 - Knowledge - INFO - [LLM_CALL] Completed: lambda-function.ts:chunk1, Duration: 33563ms, PromptTokens: 73812, CompletionTokens: 8504, Cost: $0.00000
+2025-10-21 10:07:26,592 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/lambda-function.ts
+2025-10-21 10:07:27,289 - Knowledge - INFO - [LLM_CALL] Completed: client-interface.ts:chunk1, Duration: 30126ms, PromptTokens: 76942, CompletionTokens: 9026, Cost: $0.00000
+2025-10-21 10:07:27,483 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/lib/client-interface.ts
+2025-10-21 10:07:28,446 - Knowledge - INFO - [LLM_CALL] Completed: cleanup.sh:chunk1, Duration: 53304ms, PromptTokens: 79856, CompletionTokens: 9453, Cost: $0.00000
+2025-10-21 10:07:28,641 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/scripts/cleanup.sh
+2025-10-21 10:07:29,069 - Knowledge - INFO - [LLM_CALL] Completed: tenant_authorizer.py:chunk1, Duration: 43686ms, PromptTokens: 85716, CompletionTokens: 9869, Cost: $0.00000
+2025-10-21 10:07:29,238 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/tenant_authorizer.py
+2025-10-21 10:07:29,611 - Knowledge - INFO - [LLM_CALL] Completed: identity-provider.ts:chunk1, Duration: 34156ms, PromptTokens: 87598, CompletionTokens: 10228, Cost: $0.00000
+2025-10-21 10:07:29,818 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/identity-provider.ts
+2025-10-21 10:07:30,369 - Knowledge - INFO - [LLM_CALL] Completed: product_service_dal.py:chunk1, Duration: 47578ms, PromptTokens: 90982, CompletionTokens: 10709, Cost: $0.00000
+2025-10-21 10:07:30,590 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_service_dal.py
+2025-10-21 10:07:30,848 - Knowledge - INFO - [LLM_CALL] Completed: tenant-template-stack.ts:chunk1, Duration: 36241ms, PromptTokens: 94258, CompletionTokens: 11032, Cost: $0.00000
+2025-10-21 10:07:31,024 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/tenant-template-stack.ts
+2025-10-21 10:07:32,555 - Knowledge - INFO - [LLM_CALL] Completed: order_service.py:chunk1, Duration: 46256ms, PromptTokens: 96568, CompletionTokens: 11529, Cost: $0.00000
+2025-10-21 10:07:32,738 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_service.py
+2025-10-21 10:07:33,177 - Knowledge - INFO - [LLM_CALL] Completed: bootstrap-template-stack.ts:chunk1, Duration: 36824ms, PromptTokens: 99964, CompletionTokens: 11944, Cost: $0.00000
+2025-10-21 10:07:33,371 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/bootstrap-template/bootstrap-template-stack.ts
+2025-10-21 10:07:33,964 - Knowledge - INFO - [LLM_CALL] Completed: product_service.py:chunk1, Duration: 50310ms, PromptTokens: 102294, CompletionTokens: 12412, Cost: $0.00000
+2025-10-21 10:07:34,190 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_service.py
+2025-10-21 10:07:34,784 - Knowledge - INFO - [LLM_CALL] Completed: app.module.ts:chunk1, Duration: 36803ms, PromptTokens: 104352, CompletionTokens: 12700, Cost: $0.00000
+2025-10-21 10:07:34,992 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.module.ts
+2025-10-21 10:07:36,802 - Knowledge - INFO - [LLM_CALL] Completed: order_service_dal.py:chunk1, Duration: 49332ms, PromptTokens: 107754, CompletionTokens: 13311, Cost: $0.00000
+2025-10-21 10:07:37,015 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_service_dal.py
+2025-10-21 10:07:37,731 - Knowledge - INFO - [LLM_CALL] Completed: cognito_user_management_service.py:chunk1, Duration: 57549ms, PromptTokens: 110924, CompletionTokens: 13955, Cost: $0.00000
+2025-10-21 10:07:37,882 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/cognito_user_management_service.py
+2025-10-21 10:07:38,454 - Knowledge - INFO - [LLM_CALL] Completed: utils.py:chunk1, Duration: 59155ms, PromptTokens: 113062, CompletionTokens: 14638, Cost: $0.00000
+2025-10-21 10:07:38,703 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/utils.py
+2025-10-21 10:07:39,038 - Knowledge - INFO - [LLM_CALL] Completed: serverless-saas-pipeline.ts:chunk1, Duration: 49828ms, PromptTokens: 118182, CompletionTokens: 15241, Cost: $0.00000
+2025-10-21 10:07:39,195 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-pipeline/serverless-saas-pipeline.ts
+2025-10-21 10:07:39,911 - Knowledge - INFO - [LLM_CALL] Completed: edit.component.ts:chunk1, Duration: 40267ms, PromptTokens: 120048, CompletionTokens: 15711, Cost: $0.00000
+2025-10-21 10:07:40,119 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.ts
+2025-10-21 10:07:40,778 - Knowledge - INFO - [LLM_CALL] Completed: services.ts:chunk1, Duration: 48903ms, PromptTokens: 123372, CompletionTokens: 16184, Cost: $0.00000
+2025-10-21 10:07:40,946 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/services.ts
+2025-10-21 10:07:41,180 - Knowledge - INFO - [LLM_CALL] Completed: usage-plans.ts:chunk1, Duration: 47445ms, PromptTokens: 125750, CompletionTokens: 16491, Cost: $0.00000
+2025-10-21 10:07:41,366 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/usage-plans.ts
+2025-10-21 10:07:41,593 - Knowledge - ERROR - Timeout processing /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/scripts/install.sh after 90s
+2025-10-21 10:07:42,422 - Knowledge - INFO - [LLM_CALL] Completed: user_management.py:chunk1, Duration: 54108ms, PromptTokens: 129414, CompletionTokens: 17035, Cost: $0.00000
+2025-10-21 10:07:42,605 - Knowledge - INFO - done ingest for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/UserManagementService/user_management.py
+2025-10-21 10:07:42,819 - Knowledge - WARNING - File /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/scripts/install.sh not successfully processed
+2025-10-21 10:07:43,444 - Knowledge - INFO - Processing batch of 99 files
+2025-10-21 10:07:43,615 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/scripts/cleanup.sh
+2025-10-21 10:07:43,779 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/pre-requisites-versions-check.sh
+2025-10-21 10:07:43,931 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/README.md
+2025-10-21 10:07:44,105 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/increase-disk-size.sh
+2025-10-21 10:07:44,314 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/Cloud9Setup/pre-requisites.sh
+2025-10-21 10:07:44,508 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/DOCUMENTATION.md
+2025-10-21 10:07:44,678 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/THIRD-PARTY-LICENSES.txt
+2025-10-21 10:07:44,902 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/CODE_OF_CONDUCT.md
+2025-10-21 10:07:45,068 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/README.md
+2025-10-21 10:07:45,266 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/tests/validate-deployment.sh
+2025-10-21 10:07:45,457 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/CONTRIBUTING.md
+2025-10-21 10:07:45,605 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/deprovision-tenant.sh
+2025-10-21 10:07:45,772 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/provision-tenant.sh
+2025-10-21 10:07:45,987 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/scripts/update-tenant.sh
+2025-10-21 10:07:46,181 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/utils.py
+2025-10-21 10:07:46,347 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/metrics_manager.py
+2025-10-21 10:07:46,507 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/requirements.txt
+2025-10-21 10:07:46,690 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/abstract_classes/idp_authorizer_abstract_class.py
+2025-10-21 10:07:46,843 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/abstract_classes/idp_user_management_abstract_class.py
+2025-10-21 10:07:47,022 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/idp_object_factory.py
+2025-10-21 10:07:47,202 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/cognito_user_management_service.py
+2025-10-21 10:07:47,381 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/cognito_authorizer.py
+2025-10-21 10:07:47,560 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/cognito/user_management_util.py
+2025-10-21 10:07:47,720 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/auth_manager.py
+2025-10-21 10:07:47,892 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/layers/logger.py
+2025-10-21 10:07:48,103 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/requirements.txt
+2025-10-21 10:07:48,329 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_service_dal.py
+2025-10-21 10:07:48,496 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_service.py
+2025-10-21 10:07:48,698 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/requirements.txt
+2025-10-21 10:07:48,906 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/ProductService/product_models.py
+2025-10-21 10:07:49,079 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/lambda-prepare-deploy.py
+2025-10-21 10:07:49,266 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/iterator.py
+2025-10-21 10:07:49,470 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/tenant_authorizer.py
+2025-10-21 10:07:49,637 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/requirements.txt
+2025-10-21 10:07:49,832 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_models.py
+2025-10-21 10:07:50,002 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_service.py
+2025-10-21 10:07:50,156 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/OrderService/order_service_dal.py
+2025-10-21 10:07:50,345 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/UserManagementService/user_management.py
+2025-10-21 10:07:50,583 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/src/UserManagementService/requirements.txt
+2025-10-21 10:07:50,792 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/test/tenant-template-cdk.test.ts
+2025-10-21 10:07:50,983 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/package.json
+2025-10-21 10:07:51,190 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/cdk.json
+2025-10-21 10:07:51,353 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/tsconfig.json
+2025-10-21 10:07:51,562 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/jest.config.js
+2025-10-21 10:07:51,744 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/api-key-ssm-parameter-names.ts
+2025-10-21 10:07:51,949 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/identity-details.ts
+2025-10-21 10:07:52,136 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/interfaces/custom-api-key.ts
+2025-10-21 10:07:52,350 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/control-plane-stack.ts
+2025-10-21 10:07:52,584 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-pipeline/deployemntstatemachine.asl.json
+2025-10-21 10:07:52,800 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-pipeline/serverless-saas-pipeline.ts
+2025-10-21 10:07:52,974 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/microservice.ts
+2025-10-21 10:07:53,208 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/api-gateway.ts
+2025-10-21 10:07:53,389 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/services.ts
+2025-10-21 10:07:53,542 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/lambda-function.ts
+2025-10-21 10:07:53,715 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/usage-plans.ts
+2025-10-21 10:07:53,877 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/tenant-template-stack.ts
+2025-10-21 10:07:54,032 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/tenant-template/identity-provider.ts
+2025-10-21 10:07:54,193 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/helper-functions.ts
+2025-10-21 10:07:54,408 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/bootstrap-template/tenant-api-key.ts
+2025-10-21 10:07:54,579 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/bootstrap-template/bootstrap-template-stack.ts
+2025-10-21 10:07:54,763 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/server/cdk/lib/cdk-aspect/destroy-policy-setter.ts
+2025-10-21 10:07:54,991 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/test/client-template.test.ts
+2025-10-21 10:07:55,170 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/package.json
+2025-10-21 10:07:55,359 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/cdk.json
+2025-10-21 10:07:55,539 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/tsconfig.json
+2025-10-21 10:07:55,714 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/jest.config.js
+2025-10-21 10:07:55,960 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/README.md
+2025-10-21 10:07:56,150 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/lib/client-template-stack.ts
+2025-10-21 10:07:56,333 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/client-template/lib/client-interface.ts
+2025-10-21 10:07:56,545 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/environments/environment.ts
+2025-10-21 10:07:56,779 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/environments/environment.prod.ts
+2025-10-21 10:07:56,985 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles/_variables.scss
+2025-10-21 10:07:57,185 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles/reset.scss
+2025-10-21 10:07:57,385 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/main.ts
+2025-10-21 10:07:57,555 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/styles.scss
+2025-10-21 10:07:57,800 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/models/interfaces.ts
+2025-10-21 10:07:57,959 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/models/index.ts
+2025-10-21 10:07:58,152 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.component.scss
+2025-10-21 10:07:58,356 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/interceptors/auth.interceptor.ts
+2025-10-21 10:07:58,524 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/interceptors/index.ts
+2025-10-21 10:07:58,761 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/app.module.ts
+2025-10-21 10:07:58,949 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.html
+2025-10-21 10:07:59,142 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard-routing.module.ts
+2025-10-21 10:07:59,362 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.ts
+2025-10-21 10:07:59,547 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.module.ts
+2025-10-21 10:07:59,766 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/dashboard/dashboard.component.scss
+2025-10-21 10:07:59,930 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.html
+2025-10-21 10:08:00,105 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.ts
+2025-10-21 10:08:00,286 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/create/create.component.scss
+2025-10-21 10:08:00,480 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/models/product.interface.ts
+2025-10-21 10:08:00,661 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.html
+2025-10-21 10:08:00,821 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.ts
+2025-10-21 10:08:01,030 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/list/list.component.scss
+2025-10-21 10:08:01,228 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/products-routing.module.ts
+2025-10-21 10:08:01,440 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.ts
+2025-10-21 10:08:01,623 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.html
+2025-10-21 10:08:01,819 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/edit/edit.component.scss
+2025-10-21 10:08:02,031 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/product.service.ts
+2025-10-21 10:08:02,226 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/178099/b7295a3/aws-saas-factory-ref-solution-serverless-saas/client/Application/src/app/views/products/products.module.ts
+2025-10-21 10:08:09,638 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 293, Duration: 0ms
+2025-10-21 10:08:09,819 - Knowledge - INFO - [WEBSOCKET] Sent: Type=unknown, Size: ?, Duration: 180ms
+2025-10-21 10:08:10,017 - Knowledge - INFO - Progress: 99.5% | Files: 215/216 | Rate: 1.33 files/sec | Queue: 0
+2025-10-21 10:08:10,235 - Knowledge - INFO - Knowledge creation complete
+2025-10-21 10:08:10,434 - Knowledge - INFO - ==================================================
+2025-10-21 10:08:10,587 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-21 10:08:10,739 - Knowledge - INFO - ==================================================
+2025-10-21 10:08:10,928 - Knowledge - INFO - Total processing time: 162.75 seconds (2.71 minutes)
+2025-10-21 10:08:11,083 - Knowledge - INFO - Files processed: 0
+2025-10-21 10:08:11,306 - Knowledge - INFO - Processing rate: 0.00 files/second
+2025-10-21 10:08:11,476 - Knowledge - INFO - 
+[TIME_BREAKDOWN]
+2025-10-21 10:08:11,688 - Knowledge - INFO - File Reading: 0.00s (0.0%)
+2025-10-21 10:08:11,842 - Knowledge - INFO - LLM Processing: 1384.46s (850.7%)
+2025-10-21 10:08:12,023 - Knowledge - INFO - MongoDB Operations: 0.00s (0.0%)
+2025-10-21 10:08:12,204 - Knowledge - INFO - Redis Operations: 0.00s (0.0%)
+2025-10-21 10:08:12,411 - Knowledge - INFO - WebSocket Communication: 1.11s (0.7%)
+2025-10-21 10:08:12,595 - Knowledge - INFO - 
+[LLM_STATS]
+2025-10-21 10:08:12,765 - Knowledge - INFO - Total LLM calls: 49
+2025-10-21 10:08:12,964 - Knowledge - INFO - Average LLM response time: 28254ms
+2025-10-21 10:08:13,156 - Knowledge - INFO - Average prompt tokens: 60208.0
+2025-10-21 10:08:13,353 - Knowledge - INFO - Average completion tokens: 6851.3
+2025-10-21 10:08:13,541 - Knowledge - INFO - Total prompt tokens: 2950192
+2025-10-21 10:08:13,744 - Knowledge - INFO - Total completion tokens: 335715
+2025-10-21 10:08:13,932 - Knowledge - INFO - Total LLM cost: $0.0000
+2025-10-21 10:08:14,112 - Knowledge - INFO - 
+[DATABASE_STATS]
+2025-10-21 10:08:14,292 - Knowledge - INFO - MongoDB operations: 0
+2025-10-21 10:08:14,474 - Knowledge - INFO - Redis operations: 0
+2025-10-21 10:08:14,676 - Knowledge - INFO - 
+[COMMUNICATION_STATS]
+2025-10-21 10:08:14,854 - Knowledge - INFO - WebSocket messages sent: 8
+2025-10-21 10:08:15,059 - Knowledge - INFO - Average message size: 145.8 bytes
+2025-10-21 10:08:15,252 - Knowledge - INFO - 
+[WORKER_STATS]
+2025-10-21 10:08:15,449 - Knowledge - INFO - 
+[FILE_TYPE_STATS]
+2025-10-21 10:08:15,660 - Knowledge - INFO - 
+[SLOWEST_FILES]
+2025-10-21 10:08:15,832 - Knowledge - INFO - ==================================================
+2025-10-21 10:08:16,016 - Knowledge - INFO - ==================================================
+2025-10-21 10:08:16,180 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-21 10:08:16,335 - Knowledge - INFO - ==================================================
+2025-10-21 10:08:16,498 - Knowledge - INFO - Total processing time: 168.35 seconds (2.81 minutes)
+2025-10-21 10:08:16,704 - Knowledge - INFO - Files processed: 215 of 216
+2025-10-21 10:08:16,943 - Knowledge - INFO - Processing rate: 1.28 files/second
+2025-10-21 10:08:17,125 - Knowledge - INFO - WebSocket messages sent: 4
+2025-10-21 10:08:17,316 - Knowledge - INFO - MongoDB operations: 215
+2025-10-21 10:08:17,502 - Knowledge - INFO - Average MongoDB ops per file: 1.00
+2025-10-21 10:08:17,660 - Knowledge - INFO - LLM costs: $0.0198
+2025-10-21 10:08:17,893 - Knowledge - INFO - Prompt tokens: 129414
+2025-10-21 10:08:18,094 - Knowledge - INFO - Completion tokens: 17035
+2025-10-21 10:08:18,288 - Knowledge - INFO - Updating org costs, total cost: 0.019755399999999996
+2025-10-21 10:08:19,306 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 269, Duration: 0ms
+2025-10-21 10:08:19,484 - Knowledge - INFO - Saving knowledge to Redis...
+2025-10-21 10:08:19,768 - Knowledge - INFO - Knowledge saved to Redis successfully
